@@ -1,18 +1,4 @@
 let _ = {
-    /*
-      clamp: (min, max, number) => {
-        let _clampedNumber = 0;
-        if (number > min && number < max) {
-          return _clampedNumber = number;
-        }
-        if (number < min) {
-          return _clampedNumber = min;
-        }
-        if (max < number ) {
-          return _clampedNumber = max;
-        }
-      }
-      */
     clamp(number, min, max) {
       let _clampedNumber = 0;
       if (number > min && number < max) {
